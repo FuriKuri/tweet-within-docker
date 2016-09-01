@@ -1,0 +1,23 @@
+{
+  "name": "tweet-within-docker",
+  "version": "1.0.0",
+  "description": "Simple tweet client to put it into a docker container",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuriKuri/tweet-within-docker.git"
+  },
+  "author": "Theo Pack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FuriKuri/tweet-within-docker/issues"
+  },
+  "homepage": "https://github.com/FuriKuri/tweet-within-docker#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "twitter": "^1.4.0"
+  }
+}
